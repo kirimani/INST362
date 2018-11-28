@@ -1,36 +1,107 @@
 <!DOCTYPE html>
 <html>
 	<title>FIT - Login</title>
+	
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
 	<link rel="stylesheet" type="text/css" href="css/login.css">
+
 <head>
 </head>
 <body>
+	<!-- Title -->
 	<div class = "container">
-		<div id = "title-container">
-			<div id = "img">
+		<div class ="row">	
+			<div class = "col-lg-4"></div>
+			<div class = "col-lg-1">
 				<img src = "img/logo.png" alt = "logo" width = "50" height = "75">
 			</div>
-			<div id = "name">
-				<h1>Fitness In Training</h1>
-			</div>
+				<div class = "col-lg-5"><h1 class = "white-text"><strong>Fitness In Training</strong></h1></div>
+			<div class ="col-lg-3"></div>
 		</div>
-		<div id = "summary">
-			<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ex ea commodds. </p>
+		<div class = "empty20px"></div>
+		<div class = "row">
+			<div class = "col-lg-2"></div>
+			<div class = "col-lg-8"><p class = "white-text" class="text-justify">"I'm not in the best shape, but I want to prove to myself that I can do something that seems insurmountable and inspire others by showing them no matter where they are in their fitness goals, they can do it, too." ~ Ruben Studdard</p></div>	
+			<div class = "col-lg-2"></div>
 		</div>
 	</div>
+	<div class = "empty30px"></div>
 
+	<!-- Log In -->
 	<div class = "container">
-		<div id = login-container>
-			<h3>Log into your Account</h3>
-			<input type="text" placeholder="Username" name="uname" required>
-			<input type="password" placeholder="Password" name="psw" required>
-			<label>
-		      <input type="checkbox" checked="checked" name="remember"> Remember me
-		    </label>
-		    <a href="#">Forgot Password?</a>
-		    <button type="submit">Log In</button>
-		    <p>Need an Account?</p>
-		    <a href="#">Sign Up</a>
+		<div id = "log-in">
+			<div class = "empty20px"></div>
+			<div class = "row">
+				<div class = "col-lg-4"></div>
+				<div class = "col-lg-4">
+					<h3 class = "white-text" class = "text-justify">Log into your Account</h3>
+				</div>
+				<div class = "col-lg-4"></div>
+			</div>
+
+
+			<div class = "empty20px"></div>
+
+
+			<div class = "row">
+				<div class = "col-lg-1"></div>
+				<div class = "col-lg-10">
+					<!-- Username Log in -->
+					<input type="text" placeholder="Username" name="uname" required>
+				</div>
+				<div class = "col-lg-1"></div>
+			</div>
+
+
+			<div class = "empty10px"></div>
+
+
+			<div class = "row">
+				<div class = "col-lg-1"></div>
+				<div class = "col-lg-10">
+					<!-- Password Entry -->
+					<input type="password" placeholder="Password" name="psw" required>
+				</div>
+				<div class = "col-lg-1"></div>
+			</div>
+
+
+			<div class = "empty50px"></div>
+
+
+			<div class = "row">
+				<div class = "col-lg-1"></div>
+				<div class = "col-lg-10">
+					<!-- Log In Button -->
+		   			<button type="submit">Log In</button>
+		   		</div>
+				<div class = "col-lg-1"></div>
+			</div>
+			<div class = "empty20px"></div>
+
+
+			<div class = "row">
+				<div class = "col-lg-4"></div>
+				<div class = "col-lg-4">
+					<!-- Sign Up Button -->
+		   			<p class = "white-text">Need an Account?&nbsp&nbsp&nbsp&nbsp&nbsp<a href="signup.html">Sign Up</a></p>
+		   		</div>	
+		    	<div class = "col-lg-4"></div>
+		    </div>
+
+
+		    <div class = "empty20px"></div>
+
+
 		</div>
 	</div>
 </body>
